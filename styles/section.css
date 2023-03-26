@@ -1,0 +1,236 @@
+section {
+    padding: 65px 0 0 0;
+}
+
+section .section-info {
+    text-align: center;
+    max-width: 768px;
+    margin: 0  auto 40px auto;
+}
+
+.section-info p {
+    color: #667085;
+}
+
+section .section-info-2 {
+    margin: 0 0 40px 0;
+}
+
+section .section-info .pretitle {
+    color: #6941c6;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 12px 0;
+}
+
+section .section-title {
+    color: #101828;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+/* .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+
+.span-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    width: 336px;
+    padding: 24px 24px 32px 24px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 25px 0px #ced1d7;
+}
+
+.service:first-child {
+    margin: 0 50px 0 0;
+}
+
+.service:first-child {
+    background-color: #6941c6;
+    color: #fff;
+}
+
+.service .more {
+    color: #646464;
+    font-size: 16px;
+    padding: 20px 0;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.service .more-1 {
+    color: #fff;
+}
+
+.lm {
+    font-size: 18px;
+    font-weight: 500;
+    color: #6941c6;
+}
+
+.lm-1{
+    color: #fff;
+}
+
+.cards-title .section-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 336px;
+    padding: 24px 24px 32px 24px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 25px 0px #ced1d7;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.card .design {
+    color: #6941c6;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 32px 0 12px 0;
+}
+
+.card .card-description {
+    color: #667085;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+.card .second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.card .second .info {
+    display: flex;
+    flex-direction: row;
+}
+
+.card .second .spans {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    margin: auto 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.price {
+    margin-top: auto;
+    font-size: 26px;
+    font-weight: 700;
+    color: #6941c6;
+}
+
+.year-enrolled {
+    color: #667085;
+}
+
+.jc {
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    }
+
+    .jc {
+        justify-content: center;
+    }
+
+    .service:not(:last-child),
+    .card:not(:last-child) {
+        margin: 0 0 10px 0
+    }
+      
+    .cards-title .section-info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 389px;
+    margin-left: 35px;
+   }
+
+    section .section-info .pretitle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   }
+
+   .cards-title .section-info .pretitle {
+    justify-content: flex-start;
+   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    }
+
+    .jc {
+        justify-content: center;
+    }
+
+    .card:first-child {
+        margin: 0 50px 0 0
+    }
+
+    .card:last-child {
+        margin:  0 0 0 50px;
+    }
+
+    .mt5 {
+        margin-top: 50px!important;
+    }
+
+    .service:last-child,
+    .card:last-child {
+        margin-top: 50px;
+    }
+      
+    .cards-title .section-info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 389px;
+    margin-left: 35px;
+   }
+
+    section .section-info .pretitle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   }
+
+   .cards-title .section-info .pretitle {
+    justify-content: flex-start;
+   }
+}
